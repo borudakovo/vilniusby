@@ -1,0 +1,79 @@
+/* Общие стили для всего сайта */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #f2f2f2;
+}
+
+/* Основной контент */
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+}
+
+.main-content ul {
+    list-style-type: none;
+}
+
+.main-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Стили для ссылок */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
